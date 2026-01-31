@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+root{
+    --verde-aurora: #2EC4B6;
+    --verde-profundo: #0B6E5E;
+    --azul-noite: #0B132B;
+    --azul-estrelado: #1C2541;
+    --preto: rgb(19, 19, 19);
+}
