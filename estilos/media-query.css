@@ -1,45 +1,44 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    main{
-        
-    }
-    #login{
+  
+    #login {
         float: right;
         width: 80vw;
 
     }
-    #image{
+
+    #image {
         float: left;
         width: 40%;
         height: 400px;
     }
 }
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    main{
-        
-    }
-    #login{
+
+    #login {
         float: left;
         width: 80vw;
 
     }
-    #image{
+
+    #image {
         float: right;
         width: 40%;
         height: 400px;
     }
 }
-@media screen and (min-width: 1200px){
-    main{
-        
-    }
-    #login{
+
+@media screen and (min-width: 1200px) {
+    #login {
         float: left;
         width: 70vw;
 
+
     }
-    #image{
+
+    #image {
         float: right;
         width: 40%;
         height: 400px;

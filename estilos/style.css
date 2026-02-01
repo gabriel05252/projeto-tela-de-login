@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.3s;
     color: white;
 }
 
@@ -30,7 +29,7 @@ html {
 
 main {
     display: flex;
-    min-height: 100vh; 
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     color: white;
@@ -45,6 +44,9 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
     width: 60vw;
     display: block;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 #image {
@@ -53,23 +55,23 @@ main {
     background-position: top;
     height: 200px;
     display: block;
-    
-}
-#formulario{
-    padding: 10px;
 
 }
-#formulario{
+
+#formulario {
+    padding: 10px;
     text-align: center;
 
 }
-#formulario form{
+
+#formulario form {
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: center;
 }
-#formulario input{
+
+#formulario input {
     margin: auto;
     width: 90%;
     padding: 10px;
@@ -78,32 +80,49 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.158);
 }
 
-#actions{
+#actions {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    margin-top: 16px;
-    
-}
-#actions{
     margin-top: 30px;
+
 }
-button{
+
+button {
     width: 90%;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 
- 
+
 }
-#btton-forgot{
+
+#btton-forgot {
     background: transparent;
-    color:white;
+    color: white;
     border: 1px solid rgba(53, 53, 53, 0.719);
 
 }
-#btton-login{
+
+#btton-login {
     color: black;
+}
+#btton-login:hover{
+    background-color: rgb(201, 201, 201);
+}
+#btton-login:active{
+    
+    color: rgb(155, 155, 155);
+}
+#btton-forgot {
+    color: rgb(255, 255, 255);
+}
+#btton-forgot:hover{
+    color: rgb(133, 133, 133);
+}
+#btton-forgot:active{
+    background-color: #00000000;
+    color: white;
 }
